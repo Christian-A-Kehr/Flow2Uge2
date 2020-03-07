@@ -14,21 +14,20 @@ Callback, Map, Filter.
    
 Onssdag:
 How far you got with a solution: 
-
+1 assignment done (cloverpart is covered in my friday assingment insted)
 Where the solution to each exercise can be found in your commit: 
-
+Onsdags folder
 Which of the weekly learnings goals were covered by your solution:
+
 
 Torsdag:
 How far you got with a solution: 
+Didn't start this assingment 
 
-Where the solution to each exercise can be found in your commit:
-
-Which of the weekly learnings goals were covered by your solution
 
 Fredag:
 How far you got with a solution: 
-Done (woud have liked to fix gb and watermasses tho)
+"Exam preparation exercise about AJAX, CORS and SVG" is done  (woud have liked to fix GB and watermasses though)
 
 Where the solution to each exercise can be found in your commit 
 Fredag folder (pls use the word doc to se answers to fridays assingments qustions).
