@@ -11,6 +11,13 @@ const returnPoint4 = document.getElementById("contryBorders");
 
 function getCountry(id){
 // Brug id til at lave fix på GB og vandmasserne her. bare sæt egen værdier i returnpoints
+  console.log(id)  
+if (id == "svg2"){
+    returnPoint1.innerText = "Name: Ocean" 
+    returnPoint2.innerText = "Population: alot " 
+    returnPoint3.innerText = "Area: less than 510.100.000 km2"
+    returnPoint4.innerText = "Borders: incuding rivers? idk!"  
+  } else {
 
     var url = "http://restcountries.eu/rest/v1/alpha?codes=" + id
     console.log(url)
@@ -24,7 +31,7 @@ function getCountry(id){
         returnPoint2.innerText = "Population: " + data[0].population
         returnPoint3.innerText = "Area: " + data[0].area
         returnPoint4.innerText = "Borders: " + data[0].borders
-    })
+  })}
 }
 // eventListener registrere click på kortet og vidergiver event til eventHandler (Egen funktion)
 eventClick.addEventListener("click", eventHandler, false )
@@ -35,7 +42,7 @@ var prev;
 function eventHandler(e) {
 // tag id givet fra event 
   var id = e.target.id;
- // giv farve hvis der ingen er ellers resæt 
+ // giv farve hvis der ingen er ellers reset 
   if (!prev) {
     e.target.style.fill = "red";
     prev = e.target;
